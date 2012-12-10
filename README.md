@@ -14,14 +14,9 @@ http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index
 - (void)setTabBarHidden:(BOOL)hidden animated:(BOOL)animated
 ```
 4. Fractional numbers  
-```
-Correct:  
-0.0f  
-1.0f
-Incorrect:  
-.5f
-2.f  
-```
+```Correct: 0.0f, 1.0f```  
+```Incorrect:  .5f, 2.f```
+
 ## Naming
 
 1. Class names (along with category and protocol names) should start as uppercase and use mixed case to delimit words
